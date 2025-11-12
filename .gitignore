@@ -209,3 +209,5 @@ __marimo__/
 temp
 /temp
 temp.py
+.env
+/.env
