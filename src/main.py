@@ -1,7 +1,9 @@
 from fastapi import FastAPI
 from src.core.config import settings
 
-app = FastAPI(title="Baby Food CAtalog")
+
+app = FastAPI(title="Baby Food Catalog")
+
 
 @app.get("/health")
 def health_check():
