@@ -4,10 +4,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parents[1]))
 
 from logging.config import fileConfig
-
 from sqlalchemy import engine_from_config, pool
 from alembic import context
-
 from src.models import Base
 from src.core.config import settings
 
