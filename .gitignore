@@ -211,3 +211,8 @@ temp
 temp.py
 .env
 /.env
+
+.continue/README.md
+.continue/sessions/
+.continue/models/
+.continue/agents/new-config.yaml
