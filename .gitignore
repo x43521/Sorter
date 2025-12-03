@@ -216,3 +216,4 @@ temp.py
 .continue/sessions/
 .continue/models/
 .continue/agents/new-config.yaml
+.continue/config.yaml
