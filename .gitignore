@@ -217,3 +217,5 @@ temp.py
 .continue/models/
 .continue/agents/new-config.yaml
 .continue/config.yaml
+
+rest.http
