@@ -6,6 +6,7 @@ app = FastAPI(title="Baby Food Catalog")
 
 app.include_router(auth_router)
 
+
 @app.get("/health")
 def health_check():
     return {"status": "ok", "db_url": settings.DATABASE_URL}
