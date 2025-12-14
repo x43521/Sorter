@@ -5,3 +5,5 @@ The project serves as a learning platform for mastering: PostgreSQL + Alembic (m
 We need to enter a command without a space for Ubuntu (24) with the Docker Engine installed.
   docker compose up -d
   docker compose down -v or docker compose down
+
+  uvicorn src.main:app --reload
